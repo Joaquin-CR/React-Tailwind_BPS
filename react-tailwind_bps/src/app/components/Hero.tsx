@@ -17,7 +17,7 @@ function Hero() {
                     Think Acme Rockets.
                 </p>
             </article>
-            <Image className='w-1/2' src={RocketDab} alt='Rocket Dab' />
+            <Image className='w-1/2' src={RocketDab} alt='Rocket Dab'/>
         </section>
     )
     return content
