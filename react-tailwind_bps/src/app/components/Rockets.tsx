@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import RocketMan from '../../assets/img/rocketman.png';
-import RocketRide from '../../assets/img/rocketride.png';
-import RocketLaunch from '../../assets/img/rocketlaunch.png';
+import Image from 'next/image'
+import RocketMan from '../../assets/img/rocketman.png'
+import RocketRide from '../../assets/img/rocketride.png'
+import RocketLaunch from '../../assets/img/rocketlaunch.png'
 import React from 'react';
 
 const Rockets = () => {
     const content = (
-        <section id='rockets' className='p-6 my-12 scroll-mt-20'>
+        <section id='rockets' className='p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height'>
             <h2 className='text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white'>
                 Our Rockets
             </h2>
