@@ -47,7 +47,7 @@ const Rockets = () => {
                         $$$
                     </p>
                     <p className='sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400'>
-                        Luxury Star
+                        Luxury Starship
                     </p>
                 </li>
             </ul>
