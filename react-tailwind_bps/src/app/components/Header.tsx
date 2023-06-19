@@ -3,14 +3,13 @@ import React from 'react'
 
 const Header = () => {
 
-  const hamburger = document.getElementById('hamburger-button') as HTMLElement;
-
+  const hamburger = document.getElementById('hamburger-button') as HTMLButtonElement;
   const mobileMenu = document.getElementById('mobile-menu') as HTMLButtonElement;
 
   const toggleMenu = () => {
+    hamburger.classList.toggle('toggle-btn');
     mobileMenu.classList.toggle('hidden');
     mobileMenu.classList.toggle('flex');
-    hamburger.classList.toggle('toggle-btn');
   }
 
   const content = (
