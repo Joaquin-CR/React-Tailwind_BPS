@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import RocketMan from '../../assets/img/rocketman.png'
-import RocketRide from '../../assets/img/rocketride.png'
-import RocketLaunch from '../../assets/img/rocketlaunch.png'
+import RocketMan from '../assets/img/rocketman.png'
+import RocketRide from '../assets/img/rocketride.png'
+import RocketLaunch from '../assets/img/rocketlaunch.png'
 import React from 'react';
 
 const Rockets = () => {

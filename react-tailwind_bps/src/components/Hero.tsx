@@ -1,5 +1,5 @@
 import React from 'react'
-import RocketDab from '../../assets/img/rocketdab.png'
+import RocketDab from '../assets/img/rocketdab.png'
 import Image from 'next/image'
 
 function Hero() {
