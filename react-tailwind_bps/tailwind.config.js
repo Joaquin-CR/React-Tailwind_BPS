@@ -26,8 +26,8 @@ module.exports = {
         }
       },
       animation: {
-        'open-menu': 'open-menu 0.5 ease-in-out fowards',
-      },
+        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+      }
     },
   },
   plugins: [],
